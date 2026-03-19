@@ -1,0 +1,212 @@
+<% layout("/layouts/boilerplate") %>
+<style>
+  .review-card{
+  transition: 0.3s;
+  background: #ffffff;
+}
+
+.review-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+</style>
+  <div class="container my-5">
+
+    <!-- TITLE -->
+    <h2 class="fw-bold mb-3">
+      <%= showListing.title %>
+    </h2>
+
+    <p class="text-muted">
+      📍 <%= showListing.location %>, <%= showListing.country %>
+    </p>
+
+
+    <!-- IMAGE GALLERY -->
+    <div class="row g-2 mb-4">
+
+      <% (showListing.images || [showListing.image]).slice(0,4).forEach(img=> { %>
+
+        <div class="col-md-3 col-6">
+          <img src="<%= img %>" class="img-fluid rounded-3 w-100" style="height:220px; object-fit:cover;">
+        </div>
+
+        <% }) %>
+
+    </div>
+
+
+
+    <div class="row">
+
+      <!-- LEFT SIDE -->
+      <div class="col-lg-8">
+
+        <!-- DESCRIPTION -->
+        <div class="mb-4">
+
+          <h5 class="fw-bold">About this place</h5>
+
+          <p class="text-secondary">
+            <%= showListing.description %>
+          </p>
+
+        </div>
+
+
+        <!-- REVIEWS -->
+
+        <h4 class="fw-bold mb-3">⭐ Reviews</h4>
+
+
+        <!-- REVIEW FORM -->
+        <% if(currUser){ %>
+          <div class="card border-0 shadow-sm rounded-4 mb-4">
+            <div class="card-body">
+
+              <form action="/listings/<%= showListing._id %>/reviews" method="POST">
+
+                <label class="form-label">Rating</label>
+
+                <input type="range" min="1" max="5" value="3" name="review[rating]" class="form-range">
+
+                <textarea class="form-control mt-3" rows="3" name="review[comment]"
+                  placeholder="Write review..."></textarea>
+
+                <button class="btn btn-danger mt-3">
+                  Submit
+                </button>
+
+              </form>
+
+            </div>
+          </div>
+          <% } %>
+
+
+
+            <!-- REVIEW LIST -->
+
+            <% for (let review of showListing.reviews) { %>
+
+             <div class="card mb-4 border-0 shadow rounded-4 review-card">
+
+  <div class="card-body p-3">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center">
+
+      <!-- Author -->
+      <div class="d-flex align-items-center gap-3">
+
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png"
+          width="45"
+          height="45"
+          class="rounded-circle border shadow-sm"
+        >
+
+        <div>
+          <h6 class="fw-bold mb-0"><%=review.auther.username%></h6>
+          <small class="text-muted">Guest</small>
+        </div>
+
+      </div>
+
+      <!-- Rating -->
+      <div class="text-warning fs-5">
+        <% for(let i=0;i<review.rating;i++){ %>
+          ⭐
+        <% } %>
+      </div>
+
+    </div>
+
+    <!-- Comment -->
+    <p class="mt-3 text-secondary">
+      <%= review.comment %>
+    </p>
+
+  </div>
+
+</div>
+
+              <% } %>
+
+
+      </div>
+
+
+
+      <!-- RIGHT SIDE -->
+      <div class="col-lg-4">
+
+        <!-- OWNER CARD -->
+
+        <div class="card shadow-sm border-0 rounded-4 mb-3">
+
+          <div class="card-body text-center">
+
+            <i class="fa fa-user-circle fa-4x mb-2"></i>
+
+            <h5>
+              <h5>
+                <%= showListing.owner ? showListing.owner.username : "No Owner" %>
+              </h5>
+            </h5>
+
+            <p class="text-muted">
+              Host
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- PRICE CARD -->
+
+        <div class="card shadow-lg border-0 rounded-4">
+
+          <div class="card-body">
+
+            <h4 class="fw-bold text-danger">
+
+              <%= Number(showListing.price).toLocaleString( "en-IN" , { style:"currency", currency:"INR" } ) %>
+
+                <span class="fs-6 text-muted">
+                  / night
+                </span>
+
+            </h4>
+
+            <button class="btn btn-danger w-100 mt-3">
+              Reserve
+            </button>
+
+
+            <hr>
+
+            <% if(currUser && currUser._id.equals(showListing.owner._id)) {%>
+              <a href="/listings/<%= showListing._id %>/edit" class="btn btn-outline-primary w-100 mb-2">
+                Edit
+              </a>
+
+
+              <form action="/listings/<%= showListing._id %>?_method=DELETE" method="POST">
+                <button class="btn btn-outline-danger w-100" onclick="return confirm('Delete listing?')">
+                  Delete
+                </button>
+
+              </form>
+              <% } %>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>

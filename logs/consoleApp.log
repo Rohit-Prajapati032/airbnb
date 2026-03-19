@@ -1,0 +1,3373 @@
+[2026-03-02 16:17:08] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8a3'),
+  title: 'Rustic Lake Cabin',
+  description: 'Cabin beside a peaceful lake.',
+  image: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=60',
+  price: 900,
+  location: 'Lake Tahoe',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 09:38:28] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8a1'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 09:38:36] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8a1'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 8000,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 09:38:49] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8a1'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 8000,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a65ed10ceee80d5637f24f'),
+      rating: 3,
+      comment: 'this place is exxlent ',
+      create_at: 2026-03-03T04:08:19.364Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-03 10:18:00] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8af'),
+  title: 'Lakefront Cabin',
+  description: 'Relax beside a peaceful lake.',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New Hampshire',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:18:10] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd8af'),
+  title: 'Lakefront Cabin',
+  description: 'Relax beside a peaceful lake.',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 12000,
+  location: 'New Hampshire',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:18:23] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:18:30] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a6681e088d384a2f5ac5a2'),
+      rating: 3,
+      comment: 'nice place\r\n',
+      create_at: 2026-03-03T04:47:57.941Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-03 10:34:15] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:36:23] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:39:30] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:40:28] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:40:33] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:41:50] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:42:26] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:43:39] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a6681e088d384a2f5ac5a2'),
+      rating: 3,
+      comment: 'nice place\r\n',
+      create_at: 2026-03-03T04:47:57.941Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-03 10:43:44] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:44:37] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a6681e088d384a2f5ac5a2'),
+      rating: 3,
+      comment: 'nice place\r\n',
+      create_at: 2026-03-03T04:47:57.941Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-03 10:44:42] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a6681e088d384a2f5ac5a2'),
+      rating: 3,
+      comment: 'nice place\r\n',
+      create_at: 2026-03-03T04:47:57.941Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-03 10:46:43] INFO: {
+  _id: new ObjectId('69a55d542ba2c9bc047dd89f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69a6681e088d384a2f5ac5a2'),
+      rating: 3,
+      comment: 'nice place\r\n',
+      create_at: 2026-03-03T04:47:57.941Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69a66ebbee0c8ab3017c9ae7'),
+      rating: 3,
+      comment: 'hii',
+      create_at: 2026-03-03T05:16:35.209Z,
+      __v: 0
+    }
+  ],
+  __v: 2
+}
+[2026-03-03 10:47:33] INFO: null
+[2026-03-03 10:48:20] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:57:13] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c089'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 10:57:18] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-03 12:52:41] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c0a2'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  __v: 0
+}
+[2026-03-06 18:10:51] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-06 18:11:01] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69aacb5d71ad877bca459b84'),
+      rating: 3,
+      comment: 'nice place',
+      create_at: 2026-03-06T12:40:19.620Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-13 20:47:33] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c089'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 12:12:01] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c091'),
+  title: 'Desert Luxury Villa',
+  description: 'Luxury villa oasis in the desert.',
+  image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'Dubai',
+  country: 'UAE',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 12:12:21] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c091'),
+  title: 'Desert Luxury Villa',
+  description: 'Luxury villa oasis in the desert.',
+  image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'Dubai',
+  country: 'UAE',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 12:12:34] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:14:09] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:14:11] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:14:25] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:15:10] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:42:21] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08a'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:42:30] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69aacb5d71ad877bca459b84'),
+      rating: 3,
+      comment: 'nice place',
+      create_at: 2026-03-06T12:40:19.620Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:46:37] INFO: {
+  _id: new ObjectId('69b8025b80bd6dbb3bda9930'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'tsting',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 87,
+  location: 'Malib',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:46:46] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 500,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:46:53] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:47:41] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [
+    {
+      _id: new ObjectId('69b802f5af512d8a89b62632'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-16T13:17:31.246Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:48:10] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [
+    {
+      _id: new ObjectId('69b802f5af512d8a89b62632'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-16T13:17:31.246Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:48:22] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 50000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [
+    {
+      _id: new ObjectId('69b802f5af512d8a89b62632'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-16T13:17:31.246Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:48:52] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 50000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [
+    {
+      _id: new ObjectId('69b802f5af512d8a89b62632'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-16T13:17:31.246Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:49:00] INFO: {
+  _id: new ObjectId('69b7fe68458dceea1010836c'),
+  title: 'Cozy Apartment in City Center',
+  description: 'test',
+  image: 'https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=800&q=60',
+  price: 50000,
+  location: 'hapur',
+  country: 'India',
+  reviews: [
+    {
+      _id: new ObjectId('69b802f5af512d8a89b62632'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-16T13:17:31.246Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 18:49:21] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c0a3'),
+  title: 'Cliffside Ocean Villa',
+  description: 'Dramatic ocean views from cliffside.',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 5200,
+  location: 'Santorini',
+  country: 'Greece',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:49:25] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c0a1'),
+  title: 'Rainforest Lodge',
+  description: 'Stay deep inside tropical rainforest.',
+  image: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=60',
+  price: 1400,
+  location: 'Amazon',
+  country: 'Brazil',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:49:32] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08a'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 18:49:38] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08a'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 10000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 19:00:23] INFO: {
+  _id: new ObjectId('69b805eb5b59eaaf767edbe0'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'e',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 632,
+  location: 'Malibu',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 19:01:48] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c09e'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 19:04:18] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c099'),
+  title: 'Eco Treehouse',
+  description: 'Eco-friendly treehouse in forest.',
+  image: 'https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?auto=format&fit=crop&w=800&q=60',
+  price: 750,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 19:07:53] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c089'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 19:08:23] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69aacb5d71ad877bca459b84'),
+      rating: 3,
+      comment: 'nice place',
+      create_at: 2026-03-06T12:40:19.620Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 19:08:58] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c088'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69aacb5d71ad877bca459b84'),
+      rating: 3,
+      comment: 'nice place',
+      create_at: 2026-03-06T12:40:19.620Z,
+      __v: 0
+    }
+  ],
+  __v: 1
+}
+[2026-03-16 19:11:05] INFO: null
+[2026-03-16 19:11:29] INFO: null
+[2026-03-16 19:11:30] INFO: null
+[2026-03-16 19:11:30] INFO: null
+[2026-03-16 22:16:36] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c09f'),
+  title: 'Modern City Apartment',
+  description: 'Central city apartment with modern design.',
+  image: 'https://images.unsplash.com/photo-1533619239233-6280475a633a?auto=format&fit=crop&w=800&q=60',
+  price: 1700,
+  location: 'Boston',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 22:16:48] INFO: null
+[2026-03-16 22:17:58] INFO: null
+[2026-03-16 22:19:38] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08b'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 22:19:42] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c089'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 22:20:00] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08b'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 22:22:15] INFO: null
+[2026-03-16 22:24:29] INFO: null
+[2026-03-16 22:24:31] INFO: null
+[2026-03-16 22:24:32] INFO: null
+[2026-03-16 22:24:32] INFO: null
+[2026-03-16 22:24:32] INFO: null
+[2026-03-16 22:26:41] INFO: {
+  _id: new ObjectId('69a66f0d1fcca152e284c08c'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-16 22:29:05] INFO: null
+[2026-03-18 13:31:06] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 13:31:20] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d64'),
+  title: 'Treehouse Getaway',
+  description: 'Unique treehouse stay among tall trees.',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 800,
+  location: 'Portland',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 13:31:33] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d71'),
+  title: 'Eco Treehouse',
+  description: 'Eco-friendly treehouse in forest.',
+  image: 'https://images.unsplash.com/photo-1488462237308-ecaa28b729d7?auto=format&fit=crop&w=800&q=60',
+  price: 750,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 13:36:12] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d62'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 13:37:42] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:31:55] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d62'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:32:18] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d63'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:34:04] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d63'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:36:36] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d62'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:39:43] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:39:45] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:39:46] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:39:46] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:39:46] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d61'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 14:47:54] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d6b'),
+  title: 'Safari Lodge',
+  description: 'Wildlife safari experience in luxury lodge.',
+  image: 'https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Serengeti',
+  country: 'Tanzania',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 19:13:42] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d60'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 19:31:49] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d63'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 19:39:10] INFO: {
+  _id: new ObjectId('69b836e960438fb67ab18d79'),
+  title: 'Rainforest Lodge',
+  description: 'Stay deep inside tropical rainforest.',
+  image: 'https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=60',
+  price: 1400,
+  location: 'Amazon',
+  country: 'Brazil',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 19:58:25] INFO: null
+[2026-03-18 19:58:35] INFO: null
+[2026-03-18 19:58:39] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 19:58:46] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b8'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 19:58:59] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6cc'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 19:59:41] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6cc'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 19:59:51] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6cc'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 19:59:55] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b7'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:00:39] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b8'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:01:05] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b8'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:01:13] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b9'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:01:42] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b9'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:02:20] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b9'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:02:44] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b9'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:03:49] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:05:53] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:06:02] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:08:44] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:09:22] INFO: {
+  _id: new ObjectId('69bab917fc63ab4f2de6c3f7'),
+  title: 'Cozy Beachfront Cottage',
+  description: '632',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 15000,
+  location: 'Malibu',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:10:00] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:10:10] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:20:17] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:20:25] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6c5'),
+  title: 'Art Deco Apartment',
+  description: 'Stylish art deco apartment near beach.',
+  image: 'https://images.unsplash.com/photo-1602088113235-229c19758e9f?auto=format&fit=crop&w=800&q=60',
+  price: 1600,
+  location: 'Miami',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:22:07] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b8'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:22:15] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:22:29] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b9'),
+  title: 'Historic Villa in Tuscany',
+  description: 'Classic Italian villa with vineyard views.',
+  image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=60',
+  price: 2500,
+  location: 'Florence',
+  country: 'Italy',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:22:39] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:22:56] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:24:10] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b6'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:24:19] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:24:38] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6b7'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:24:45] INFO: {
+  _id: new ObjectId('69bab917fc63ab4f2de6c3f7'),
+  title: 'Cozy Beachfront Cottage',
+  description: '632',
+  image: 'https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=60',
+  price: 15000,
+  location: 'Malibu',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:25:03] INFO: {
+  _id: new ObjectId('69bab93dfc63ab4f2de6c405'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'fw',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Santorini',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69baa8ccf13f4bbe500182ec'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'rohit032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:25:07] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:25:26] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6cb'),
+  title: 'Beach House',
+  description: 'Secluded beach house with ocean breeze.',
+  image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60',
+  price: 1800,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:25:31] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6d0'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:25:36] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6d1'),
+  title: 'Cliffside Ocean Villa',
+  description: 'Dramatic ocean views from cliffside.',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 5200,
+  location: 'Santorini',
+  country: 'Greece',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:25:42] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:30:27] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:30:53] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:31:15] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6d0'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:31:19] INFO: {
+  _id: new ObjectId('69bab59600fffaf8115fb6bf'),
+  title: 'Desert Luxury Villa',
+  description: 'Luxury villa oasis in the desert.',
+  image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'Dubai',
+  country: 'UAE',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:33:17] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:34:46] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:35:25] INFO: {
+  _id: new ObjectId('69babf32a87ecb0a00ecf604'),
+  title: 'Cozy Apartment in City Center',
+  description: 'cx',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 4865,
+  location: 'Malib',
+  country: 'India',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:35:55] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:36:06] INFO: {
+  _id: new ObjectId('69bab8f0ae506cccc0ae10a4'),
+  title: 'Cozy Apartment in City Center',
+  description: 'fcdsq',
+  image: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=60',
+  price: 85,
+  location: 'hapur',
+  country: 'India',
+  reviews: [],
+  __v: 0
+}
+[2026-03-18 20:36:31] INFO: null
+[2026-03-18 20:37:12] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb2'),
+  title: 'Beach House',
+  description: 'Secluded beach house with ocean breeze.',
+  image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60',
+  price: 1800,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:48:44] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:49:22] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:49:32] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:49:40] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:51:18] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:51:56] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:52:02] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb7'),
+  title: 'Countryside Cottage',
+  description: 'Quiet countryside escape.',
+  image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=60',
+  price: 950,
+  location: 'Cotswolds',
+  country: 'United Kingdom',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:52:23] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eaa'),
+  title: 'Tropical Villa',
+  description: 'Private tropical villa with pool.',
+  image: 'https://images.unsplash.com/photo-1470165301023-58dab8118cc9?auto=format&fit=crop&w=800&q=60',
+  price: 2800,
+  location: 'Phuket',
+  country: 'Thailand',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:52:31] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eaa'),
+  title: 'Tropical Villa',
+  description: 'Private tropical villa with pool.',
+  image: 'https://images.unsplash.com/photo-1470165301023-58dab8118cc9?auto=format&fit=crop&w=800&q=60',
+  price: 500,
+  location: 'Phuket',
+  country: 'Thailand',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:52:57] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:53:08] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:53:39] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:57:58] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb3'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:58:06] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb3'),
+  title: 'Luxury Ski Chalet',
+  description: 'Premium ski chalet in snowy resort.',
+  image: 'https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=800&q=60',
+  price: 4000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:58:24] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb4'),
+  title: 'Modern City Apartment',
+  description: 'Central city apartment with modern design.',
+  image: 'https://images.unsplash.com/photo-1533619239233-6280475a633a?auto=format&fit=crop&w=800&q=60',
+  price: 1700,
+  location: 'Boston',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:58:31] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb4'),
+  title: 'Modern City Apartment',
+  description: 'Central city apartment with modern design.',
+  image: 'https://images.unsplash.com/photo-1533619239233-6280475a633a?auto=format&fit=crop&w=800&q=60',
+  price: 17001,
+  location: 'Boston',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-18 20:58:41] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb4'),
+  title: 'Modern City Apartment',
+  description: 'Central city apartment with modern design.',
+  image: 'https://images.unsplash.com/photo-1533619239233-6280475a633a?auto=format&fit=crop&w=800&q=60',
+  price: 17001,
+  location: 'Boston',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:08:05] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:08:43] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:08:50] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9f'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 10000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:17:19] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:17:39] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:17:47] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:17:58] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:18:05] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:18:34] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:18:36] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:18:41] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:18:55] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eaa'),
+  title: 'Tropical Villa',
+  description: 'Private tropical villa with pool.',
+  image: 'https://images.unsplash.com/photo-1470165301023-58dab8118cc9?auto=format&fit=crop&w=800&q=60',
+  price: 500,
+  location: 'Phuket',
+  country: 'Thailand',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:19:18] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:20:16] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:21:04] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:22:33] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:23:51] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:25:01] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:25:25] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:26:57] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:27:08] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb2'),
+  title: 'Beach House',
+  description: 'Secluded beach house with ocean breeze.',
+  image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60',
+  price: 1800,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:27:14] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0eb2'),
+  title: 'Beach House',
+  description: 'Secluded beach house with ocean breeze.',
+  image: 'https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=800&q=60',
+  price: 1800,
+  location: 'Costa Rica',
+  country: 'Costa Rica',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e4a07b85c9cbfd65e56'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:56:50.207Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:27:58] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:28:04] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:30:07] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:30:11] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9efbd0d7c0eed53f7a9c'),
+      rating: 3,
+      comment: 'd',
+      create_at: 2026-03-19T06:59:51.880Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:32:53] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9efbd0d7c0eed53f7a9c'),
+      rating: 3,
+      comment: 'd',
+      create_at: 2026-03-19T06:59:51.880Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:33:04] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0ea6'),
+  title: 'Desert Luxury Villa',
+  description: 'Luxury villa oasis in the desert.',
+  image: 'https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=800&q=60',
+  price: 5000,
+  location: 'Dubai',
+  country: 'UAE',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:33:46] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9efbd0d7c0eed53f7a9c'),
+      rating: 3,
+      comment: 'd',
+      create_at: 2026-03-19T06:59:51.880Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:34:50] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9efbd0d7c0eed53f7a9c'),
+      rating: 3,
+      comment: 'd',
+      create_at: 2026-03-19T06:59:51.880Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:34:57] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9e'),
+  title: 'Modern Loft in Downtown',
+  description: 'Stylish loft in the heart of downtown.',
+  image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=60',
+  price: 1200,
+  location: 'New York City',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9e7c22fa1415681a9ed1'),
+      rating: 3,
+      comment: 'h',
+      create_at: 2026-03-19T06:57:42.634Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9efbd0d7c0eed53f7a9c'),
+      rating: 3,
+      comment: 'd',
+      create_at: 2026-03-19T06:59:51.880Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba0197608d5586e5e18bd'),
+      rating: 3,
+      comment: 'sssssssss',
+      create_at: 2026-03-19T07:04:31.994Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 3
+}
+[2026-03-19 12:36:20] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:36:26] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 3
+}
+[2026-03-19 12:39:59] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 3
+}
+[2026-03-19 12:40:04] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba14c0f5913b8fce811c3'),
+      rating: 3,
+      comment: 'so ice',
+      create_at: 2026-03-19T07:09:44.940Z,
+      auther: new ObjectId('69ba53354a401e81a5655600'),
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 4
+}
+[2026-03-19 12:45:14] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba14c0f5913b8fce811c3'),
+      rating: 3,
+      comment: 'so ice',
+      create_at: 2026-03-19T07:09:44.940Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 4
+}
+[2026-03-19 12:46:17] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba14c0f5913b8fce811c3'),
+      rating: 3,
+      comment: 'so ice',
+      create_at: 2026-03-19T07:09:44.940Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 4
+}
+[2026-03-19 12:46:42] INFO: {
+  _id: new ObjectId('69babf88d240d9dda27f0e9d'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bb9c133fe3754a9d33d946'),
+      rating: 4,
+      comment: 'nice',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bb9ddd3fe3754a9d33d991'),
+      rating: 3,
+      comment: 'good',
+      create_at: 2026-03-19T06:37:46.982Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba07277b618b29a0c9763'),
+      rating: 3,
+      comment: 'dfghjkl;',
+      create_at: 2026-03-19T07:06:11.470Z,
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba14c0f5913b8fce811c3'),
+      rating: 3,
+      comment: 'so ice',
+      create_at: 2026-03-19T07:09:44.940Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 4
+}
+[2026-03-19 12:48:18] INFO: null
+[2026-03-19 12:48:25] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:48:35] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}
+[2026-03-19 12:48:41] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:48:56] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 1
+}
+[2026-03-19 12:49:02] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:49:37] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:49:39] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:50:00] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:50:02] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:50:13] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2c8'),
+  title: 'Cozy Beachfront Cottage',
+  description: 'Relax in a cozy beachfront cottage with stunning ocean views.',
+  image: 'https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60',
+  price: 1500,
+  location: 'Malibu',
+  country: 'United States',
+  reviews: [
+    {
+      _id: new ObjectId('69bba3514034dc6584a3d6b5'),
+      rating: 3,
+      comment: 'so good',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    },
+    {
+      _id: new ObjectId('69bba3664034dc6584a3d6cc'),
+      rating: 3,
+      comment: 'nice',
+      create_at: 2026-03-19T07:18:17.488Z,
+      auther: [Object],
+      __v: 0
+    }
+  ],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 2
+}
+[2026-03-19 12:50:48] INFO: {
+  _id: new ObjectId('69bba32f56422aeaa356a2ca'),
+  title: 'Mountain Retreat',
+  description: 'Peaceful cabin surrounded by mountains and nature.',
+  image: 'https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=800&q=60',
+  price: 1000,
+  location: 'Aspen',
+  country: 'United States',
+  reviews: [],
+  owner: {
+    _id: new ObjectId('69ba53354a401e81a5655600'),
+    email: '032rohitprajapati@gmail.com',
+    username: 'subhash032',
+    __v: 0
+  },
+  __v: 0
+}

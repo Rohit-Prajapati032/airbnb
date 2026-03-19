@@ -1,0 +1,89 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom shadow-sm fixed-top">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold text-danger" href="/">AirBnb</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto gap-2">
+        <li class="nav-item">
+          <a class="nav-link active" href="/">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/listings/new">Add Listing</a>
+        </li>
+        <li class="nav-item">
+          <% if(!currUser){ %>
+            <a class="btn btn-outline-danger px-3" href="/signIn">Login</a>
+            <% } %>
+              <% if(currUser){ %>
+
+                <div class="dropdown">
+
+                  <button class="btn btn-light border rounded-pill px-3 shadow-sm dropdown-toggle"
+                    data-bs-toggle="dropdown">
+                    <i class="fa fa-user-circle me-1"></i>
+                    <b>
+                      <%= currUser.username %>
+                    </b>
+                  </button>
+
+                  <ul class="dropdown-menu dropdown-menu-end shadow-lg p-2">
+
+                    <li class="px-3 py-2 text-muted small">
+                      Signed in as <br>
+                      <strong>
+                        <%= currUser.username %>
+                      </strong>
+                    </li>
+
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="/profile">
+                        <i class="fa fa-user me-2"></i>
+                        Profile
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="/changePassword">
+                        <i class="fa fa-key me-2"></i>
+                        Change Password
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item" href="/listings">
+                        <i class="fa fa-home me-2"></i>
+                        My Listings
+                      </a>
+                    </li>
+
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+
+                    <li>
+                      <a class="dropdown-item text-danger" href="/logout">
+                        <i class="fa fa-sign-out me-2"></i>
+                        Logout
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <% } %>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>

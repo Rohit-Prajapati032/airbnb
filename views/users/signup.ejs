@@ -1,0 +1,102 @@
+<%layout("/layouts/boilerplate")%>
+<style>
+    body {
+  background: #f7f7f7;
+}
+
+.card {
+  border: none;
+}
+
+.btn-danger {
+  background-color: #ff385c;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #e03150;
+}
+</style>
+<body>
+    <div class="container d-flex justify-content-center align-items-center"
+     style="min-height: 80vh;">
+
+  <div class="card shadow-lg p-4 rounded-4" style="width: 420px;">
+
+    <h3 class="text-center mb-4 fw-bold">
+      Sign up to Airbnb
+    </h3>
+
+    <form action="/signup" method="POST"
+          novalidate
+          class="needs-validation">
+
+      <!-- Username -->
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control rounded-3"
+          id="username"
+          name="username"
+          placeholder="Username"
+          required
+        >
+        <label for="username">Username</label>
+        <div class="invalid-feedback">
+          Username required
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control rounded-3"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        >
+        <label for="email">Email address</label>
+        <div class="invalid-feedback">
+          Enter valid email
+        </div>
+      </div>
+
+      <!-- Password -->
+      <div class="form-floating mb-3">
+        <input
+          type="password"
+          class="form-control rounded-3"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        >
+        <label for="password">Password</label>
+      </div>
+
+      <!-- Confirm Password -->
+     
+
+      <!-- Button -->
+      <button
+        class="btn btn-danger w-100 rounded-3 fw-bold"
+      >
+        Sign up
+      </button>
+
+      <!-- Login link -->
+      <p class="text-center mt-3">
+        Already have account ?
+        <a href="/signIn">
+          SignIn
+        </a>
+      </p>
+
+    </form>
+
+  </div>
+
+</div>
+</body>

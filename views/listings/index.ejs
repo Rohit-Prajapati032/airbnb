@@ -1,0 +1,61 @@
+<%layout("/layouts/boilerplate")%>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h1 class="fw-bold">All Listings</h1>
+
+      <!-- <form action="/listings/new" method="get">
+        <button class="btn btn-danger">
+          + New Listing
+        </button>
+      </form> -->
+    </div>
+
+    <!-- Cards Grid -->
+    <div class="row g-4">
+
+      <% for(let listing of listings) { %>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+
+          <div class="card h-100 shadow-sm border-0">
+
+            <!-- Image -->
+            <img 
+              src="<%= listing.image %>" 
+              class="card-img-top"
+              style="height: 200px; object-fit: cover;"
+              alt="listing image"
+            >
+
+            <!-- Card body -->
+            <div class="card-body">
+
+              <h5 class="card-title mb-1">
+                <%= listing.title %>
+              </h5>
+
+              <p class="text-muted mb-2">
+                <%= listing.location %>, <%= listing.country %>
+              </p>
+
+              <p class="fw-semibold mb-3">
+                ₹ <%= Number(listing.price).toLocaleString("en-IN") %>
+                <span class="text-muted fw-normal">/ night</span>
+              </p>
+
+              <a 
+                href="/listings/<%= listing._id %>" 
+                class="stretched-link text-decoration-none">
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      <% } %>
+
+    </div>
+  </div>
+</body>

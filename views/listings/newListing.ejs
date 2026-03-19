@@ -1,0 +1,135 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-7 col-md-9">
+
+      <div class="card border-0 shadow-lg rounded-4">
+        <div class="card-body p-5">
+
+          <!-- Heading -->
+          <div class="text-center mb-4">
+            <h2 class="fw-bold">Create New Listing</h2>
+            <p class="text-muted mb-0">
+              Add details about your beautiful place 🏡
+            </p>
+          </div>
+
+          <form action="/listings" method="post" novalidate class="needs-validation">
+
+            <!-- Title -->
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control rounded-3"
+                id="title"
+                placeholder="Title"
+                name="listing[title]"
+                required
+              >
+              <label for="title">Listing Title</label>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">Title is required.</div>
+            </div>
+
+            <!-- Description -->
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control rounded-3"
+                id="description"
+                placeholder="Description"
+                name="listing[description]"
+                style="height: 120px"
+                required
+              ></textarea>
+              <label for="description">Description</label>
+              <div class="valid-feedback">Looks good!</div>
+              <div class="invalid-feedback">
+                Please provide a short description.
+              </div>
+            </div>
+
+            <!-- Image URL -->
+            <div class="form-floating mb-3">
+              <input
+                type="url"
+                class="form-control rounded-3"
+                id="image"
+                placeholder="Image URL"
+                name="listing[image]"
+                required
+              >
+              <label for="image">Image URL</label>
+              <div class="invalid-feedback">
+                Please provide a valid image URL.
+              </div>
+            </div>
+
+            <!-- Price & Country -->
+            <div class="row g-3 mb-3">
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input
+                  
+                    class="form-control rounded-3"
+                    id="price"
+                    placeholder="Price"
+                    name="listing[price]"
+                    required
+                  >
+                  <label for="price">₹ Price per night</label>
+                  <div class="invalid-feedback">
+                    Please provide a valid price.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-floating">
+                  <input
+                    type="text"
+                    class="form-control rounded-3"
+                    id="country"
+                    placeholder="Country"
+                    name="listing[country]"
+                    required
+                  >
+                  <label for="country">Country</label>
+                  <div class="invalid-feedback">
+                    Please provide a valid country.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Location -->
+            <div class="form-floating mb-4">
+              <input
+                type="text"
+                class="form-control rounded-3"
+                id="location"
+                placeholder="Location"
+                name="listing[location]"
+                required
+              >
+              <label for="location">City / Location</label>
+              <div class="invalid-feedback">
+                Please provide a valid city.
+              </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="d-grid">
+              <button class="btn btn-danger btn-lg rounded-pill fw-semibold">
+                Publish Listing
+              </button>
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

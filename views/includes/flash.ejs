@@ -1,0 +1,34 @@
+<!-- FLASH MESSAGE -->
+<% if(success && success.length > 0){ %>
+  <div class="container mt-2">
+    <div class="alert alert-success alert-dismissible fade show shadow-sm rounded-3 d-flex align-items-center" role="alert">
+
+      <i class="bi bi-check-circle-fill me-2 fs-5"></i>
+
+      <div>
+        <%= success %>
+      </div>
+
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+
+    </div>
+  </div>
+<% } %>
+
+<% if(error && error.length > 0){ %>
+  <div class="container mt-2">
+    <div class="alert alert-danger alert-dismissible fade show shadow-sm rounded-3 d-flex align-items-center" role="alert">
+
+      <i class="bi bi-check-circle-fill me-2 fs-5"></i>
+
+      <div>
+        <%= error%>
+      </div>
+
+      <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+
+    </div>
+  </div>
+<% } %>
+
+
