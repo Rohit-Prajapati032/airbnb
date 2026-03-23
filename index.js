@@ -1,3 +1,8 @@
+import dotenv from 'dotenv'
+dotenv.config();
+// if (process.env.NODE_ENV != "production") {
+
+// }
 import express from "express";
 import methodOverride from "method-override";
 import ejsMate from "ejs-mate";
@@ -13,6 +18,7 @@ import passport from "passport";
 import LocalStrategy from "passport-local"
 import User from "./models/user.js"
 import MongoStore from "connect-mongo";
+
 
 
 const app = express();
@@ -34,7 +40,7 @@ app.use(methodOverride("_method"));
 const store = MongoStore.create({
     mongoUrl: "mongodb+srv://032rohitprajapati:rohit032@cluster0.xq7xl9k.mongodb.net/?appName=Cluster0",
     secret: {
-        crypto: "mysession"
+        crypto: process.env.SECRET_KEY
     },
     touchAfter: 24 * 3600,
 });
@@ -43,7 +49,7 @@ store.on("error", (err) => {
 })
 const sessionOption = {
     store: store,
-    secret: "mysession",
+    secret: process.env.SECRET_KEY,
     resave: false,
     saveUninitialized: true,
     cookie: {

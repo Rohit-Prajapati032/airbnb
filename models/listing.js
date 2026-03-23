@@ -12,9 +12,11 @@ const ListingSchema = new Schema({
         required: true
     },
     image: {
-        type: String,
-        default: "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60",
-        set: (v) => v === "" ? "https://static.vecteezy.com/system/resources/thumbnails/025/189/222/small_2x/vibrant-raindrop-sphere-reflects-nature-beauty-in-abstract-water-pattern-generated-by-ai-free-photo.jpg" : v,
+        // type: String,
+        // default: "https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?auto=format&fit=crop&w=800&q=60",
+        // set: (v) => v === "" ? "https://static.vecteezy.com/system/resources/thumbnails/025/189/222/small_2x/vibrant-raindrop-sphere-reflects-nature-beauty-in-abstract-water-pattern-generated-by-ai-free-photo.jpg" : v,
+        url: String,
+        filename: String
     },
     price: {
         type: Number,
@@ -27,6 +29,10 @@ const ListingSchema = new Schema({
     country: {
         type: String,
         required: true
+    },
+    geometry: {
+        lat: Number,
+        lng: Number,
     },
     reviews: [
         {

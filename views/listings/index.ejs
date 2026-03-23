@@ -2,16 +2,7 @@
 <body>
   <div class="container">
 
-    <!-- Header -->
-    <div class="d-flex justify-content-between align-items-center mb-4">
-      <h1 class="fw-bold">All Listings</h1>
-
-      <!-- <form action="/listings/new" method="get">
-        <button class="btn btn-danger">
-          + New Listing
-        </button>
-      </form> -->
-    </div>
+    
 
     <!-- Cards Grid -->
     <div class="row g-4">
@@ -23,7 +14,7 @@
 
             <!-- Image -->
             <img 
-              src="<%= listing.image %>" 
+              src="<%= listing.image.url %>" 
               class="card-img-top"
               style="height: 200px; object-fit: cover;"
               alt="listing image"

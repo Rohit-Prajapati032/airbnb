@@ -1,7 +1,7 @@
 import Listing from "../models/listing.js";
 
 const isLoggedIn = (req, res, next) => {
-    console.log(req.user);
+    // console.log(req.user);
     if (!req.isAuthenticated()) {
         req.session.redirectUrl = req.originalUrl
         req.flash("error", "You must be logged in to create listing")

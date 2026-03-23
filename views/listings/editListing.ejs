@@ -15,7 +15,7 @@
             </p>
           </div>
 
-          <form action="/listings/<%=listing._id %>?_method=put" method="post" novalidate class="needs-validation">
+          <form action="/listings/<%=listing._id %>?_method=put" method="post" novalidate class="needs-validation" enctype="multipart/form-data">
 
             <!-- Title -->
             <div class="form-floating mb-3">
@@ -50,16 +50,17 @@
               </div>
             </div>
 
+              <div class="mb-3">
+                <img src="<%=originalImageUrl%>" alt="">
+              </div>
             <!-- Image URL -->
             <div class="form-floating mb-3">
               <input
-                type="url"
+                type="file"
                 class="form-control rounded-3"
                 id="image"
-                placeholder="Image URL"
                 name="listing[image]"
-                value="<%=listing.image %>"
-                required
+                value="<%=listing.image.url %>"
               >
               <label for="image">Image URL</label>
               <div class="invalid-feedback">

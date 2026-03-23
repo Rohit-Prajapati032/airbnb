@@ -1,8 +1,11 @@
 import mongoose from "mongoose";
-import logger from "../utils/winston.js"
+import dotenv from 'dotenv'
+dotenv.config();
+const dbUrl = process.env.MONGODB_URL;
+// console.log(dbUrl);
 const connectDB = async () => {
     try {
-        await mongoose.connect("mongodb+srv://032rohitprajapati:rohit032@cluster0.xq7xl9k.mongodb.net/?appName=Cluster0");
+        await mongoose.connect(dbUrl);
 
         console.log("MongoDB Connected");
     } catch (error) {
